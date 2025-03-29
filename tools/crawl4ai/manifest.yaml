@@ -1,0 +1,40 @@
+author: agimaster
+created_at: '2025-03-30T01:43:42.658609186Z'
+description:
+  en_US: Access Crawl4AI capabilities to extract content from web pages, etc, return markdown or html format
+  zh_Hans: 通过API接口访问Crawl4AI的网页内容提取、数据解析和结构化处理等功能，实现高效的网络信息采集，返回markdown或者html格式
+icon: icon.svg
+label:
+  en_US: Crawl4AI
+  zh_Hans: Crawl4AI
+meta:
+  arch:
+  - amd64
+  - arm64
+  runner:
+    entrypoint: main
+    language: python
+    version: '3.11'
+  version: 0.0.1
+name: crawl4ai
+plugins:
+  tools:
+  - provider/crawl4ai.yaml
+resource:
+  memory: 1048576
+  permission:
+    app:
+      enabled: false
+    endpoint:
+      enabled: true
+    model:
+      enabled: false
+    tool:
+      enabled: true
+    storage:
+      enabled: false
+tags:
+- search
+- productivity
+type: plugin
+version: 0.0.1
