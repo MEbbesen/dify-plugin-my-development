@@ -9,7 +9,7 @@ extra:
   python:
     source: tools/crawl_direct.py
 identity:
-  author: agimater
+  author: "AGIMaster"
   label:
     en_US: Web Content Extraction
     zh_Hans: 网页内容提取

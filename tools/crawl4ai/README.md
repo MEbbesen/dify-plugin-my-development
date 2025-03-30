@@ -45,8 +45,11 @@ Add the Crawl4AI tool in the Agent application, then use web extraction commands
     - **Selector Support**: Target specific content using CSS selectors
     - **Formatted Output**: Support for Markdown and HTML output formats
     - **Tag Exclusion**: Ability to exclude specific HTML tags from extraction
+    - Python code reference: unclecode/crawl4ai/docs/examples/docker_example.py
 
 
 ## Development
 
 For development information, please refer to the [Dify Plugin Development Documentation](https://docs.dify.ai/plugins/develop-plugins). 
+
+Source code is available at: https://github.com/AGIMaster/dify-plugin-my-development/tree/master/tools/crawl4ai
