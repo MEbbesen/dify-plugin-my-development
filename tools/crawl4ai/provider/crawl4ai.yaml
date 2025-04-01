@@ -11,6 +11,7 @@ credentials_for_provider:
       zh_Hans: 请输入您的Crawl4AI API令牌
     required: true
     type: secret-input
+    url: https://docs.crawl4ai.com/core/docker-deployment/
   server_url:
     help:
       en_US: Your Crawl4AI server URL (e.g. http://localhost:11235)
@@ -23,6 +24,7 @@ credentials_for_provider:
       zh_Hans: 请输入您的Crawl4AI服务器URL
     required: true
     type: text-input
+    url: https://docs.crawl4ai.com/core/docker-deployment/
 extra:
   python:
     source: provider/crawl4ai.py

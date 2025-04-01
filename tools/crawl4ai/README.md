@@ -45,7 +45,7 @@ Add the Crawl4AI tool in the Agent application, then use web extraction commands
     - **Selector Support**: Target specific content using CSS selectors
     - **Formatted Output**: Support for Markdown and HTML output formats
     - **Tag Exclusion**: Ability to exclude specific HTML tags from extraction
-    - Python code reference: unclecode/crawl4ai/docs/examples/docker_example.py
+    - Python code reference: https://github.com/unclecode/crawl4ai/blob/main/docs/examples/docker_example.py
 
 
 ## Development
