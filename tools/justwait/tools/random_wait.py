@@ -32,14 +32,14 @@ class RandomWaitTool(Tool):
         wait_seconds = round(wait_seconds, 2)  # 保留两位小数
         
         # 输出开始等待的消息
-        message = f"随机等待 {wait_seconds} 秒... (范围: {min_seconds}-{max_seconds}秒)"
+        message = f"Random waiting for {wait_seconds} seconds... (range: {min_seconds}-{max_seconds} seconds)"
         yield self.create_text_message(message)
         
         # 等待随机秒数
         time.sleep(wait_seconds)
         
         # 输出等待完成的消息
-        message = f"随机等待 {wait_seconds} 秒完成"
+        message = f"Random waiting for {wait_seconds} seconds... (range: {min_seconds}-{max_seconds} seconds)"
         yield self.create_text_message(message)
         
         # 返回元数据

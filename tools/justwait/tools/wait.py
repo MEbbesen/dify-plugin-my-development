@@ -21,14 +21,14 @@ class WaitTool(Tool):
             seconds = 5
             
         # 输出开始等待的消息
-        message = f"等待 {seconds} 秒..."
+        message = f"Waiting for {seconds} seconds..."
         yield self.create_text_message(message)
         
         # 等待指定的秒数
         time.sleep(seconds)
         
         # 输出等待完成的消息
-        message = f"等待 {seconds} 秒完成"
+        message = f"Waiting for {seconds} seconds... done"
         yield self.create_text_message(message)
         
         # 返回元数据
