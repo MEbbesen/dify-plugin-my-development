@@ -7,7 +7,7 @@ description:
     Content will be returned in markdown or html format.
 extra:
   python:
-    source: tools/crawl_direct.py
+    source: tools/crawl_direct_legacy.py
 identity:
   author: "AGIMaster"
   label:
