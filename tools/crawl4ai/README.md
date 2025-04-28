@@ -19,7 +19,7 @@ The Crawl4AI plugin can be found in the Plugin Marketplace. Install it first.
 On the Dify navigation page, click `Tools > Crawl4AI > To Authorize` and fill in the following information:
 
 - **Server URL**: Your Crawl4AI service URL, e.g., `http://localhost:11235`
-- **API Token**: The authentication token for your Crawl4AI service
+- **API Token**: The authentication token for your Crawl4AI service. (Not required after Crawl4AI version 0.6.0)
 
 ![](./_assets/crawl4ai_1.jpg)
 
@@ -45,8 +45,11 @@ Add the Crawl4AI tool in the Agent application, then use web extraction commands
     - **Selector Support**: Target specific content using CSS selectors
     - **Formatted Output**: Support for Markdown and HTML output formats
     - **Tag Exclusion**: Ability to exclude specific HTML tags from extraction
+    - Python code reference: https://github.com/unclecode/crawl4ai/blob/main/docs/examples/docker/demo_docker_api.py
+    
+- Web Content Extraction (Legacy)
+    - For Crawl4AI versions prior to 0.6.0
     - Python code reference: https://github.com/unclecode/crawl4ai/blob/main/docs/examples/docker_example.py
-
 
 ## Development
 

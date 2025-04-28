@@ -42,4 +42,5 @@ identity:
   - search
   - productivity
 tools:
-- tools/crawl_direct.yaml 
+- tools/crawl_direct_legacy.yaml
+- tools/crawl.yaml

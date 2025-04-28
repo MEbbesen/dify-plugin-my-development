@@ -2,7 +2,6 @@ import requests
 from typing import Any
 from dify_plugin.errors.tool import ToolProviderCredentialValidationError
 from dify_plugin import ToolProvider
-from tools.crawl_direct import Crawl4AICrawlDirectTool
 
 
 class Crawl4AIProvider(ToolProvider):
