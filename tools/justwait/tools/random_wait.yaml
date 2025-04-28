@@ -8,7 +8,7 @@ extra:
   python:
     source: tools/random_wait.py
 identity:
-  author: "AGIMater"
+  author: "AGIMaster"
   label:
     en_US: Random Wait
     zh_Hans: 随机等待

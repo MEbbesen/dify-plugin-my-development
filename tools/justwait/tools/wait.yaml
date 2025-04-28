@@ -7,7 +7,7 @@ extra:
   python:
     source: tools/wait.py
 identity:
-  author: "AGIMater"
+  author: "AGIMaster"
   label:
     en_US: Wait
     zh_Hans: 等待
